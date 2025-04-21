@@ -1,1 +1,434 @@
+* {
+  box-sizing: border-box;
+}
 
+/* Flex */
+
+.flexrow {
+  display: flex;
+  flex-direction: row;
+}
+
+.flexcol {
+  display: flex;
+  flex-direction: column;
+}
+
+.flexbetween {
+  justify-content: space-between;
+}
+
+.flexaround {
+  justify-content: space-around;
+}
+
+.flexeven {
+  justify-content: space-evenly;
+}
+
+.flexstart {
+  justify-content: flex-start;
+}
+
+.flexcenter {
+  justify-content: center;
+}
+
+.flexend {
+  justify-content: flex-end;
+}
+
+.flexalignstart {
+  align-items: flex-start;
+}
+
+.flexaligncenter {
+  align-items: center;
+}
+
+.flexalignend {
+  align-items: flex-end;
+}
+
+.flexselfend {
+  align-self: flex-end;
+}
+
+/* Margins, Padding, and Box Formatting */
+
+.margin-center {
+  margin: 0 auto;
+}
+
+.margin-right {
+  margin-right: 1rem;
+}
+
+.margin-left {
+  margin-left: 1rem;
+}
+
+.margin-top {
+  margin-top: 1rem;
+}
+
+.margin-top-lil {
+  margin-top: .5rem;
+}
+
+.margin-top-big {
+  margin-top: 2rem;
+}
+
+.margin-bottom {
+  margin-bottom: 1rem;
+}
+
+.margin-bottom-lil {
+  margin-bottom: .5rem;
+}
+
+.margin-bottom-big {
+  margin-bottom: 2rem;
+}
+
+.padded {
+  padding: 1rem;
+}
+
+.padded-double {
+  padding: 2rem;
+}
+
+.rounded {
+  border-radius: .75rem;
+}
+
+.height5 {
+  height: 5rem;
+}
+
+.height7 {
+  height: 7rem;
+}
+
+.height10 {
+  height: 10rem;
+}
+
+.height20 {
+  height: 20rem;
+}
+
+.height25 {
+  height: 25rem;
+}
+
+.height30 {
+  height: 30rem;
+}
+
+.height30-min {
+  min-height: 30rem;
+}
+
+.height35 {
+  height: 35rem;
+}
+
+.height35-min {
+  min-height: 35rem;
+}
+
+.height40 {
+  height: 40rem;
+}
+
+.height40-min {
+  min-height: 40rem;
+}
+
+.height50 {
+  height: 50rem;
+}
+
+.height80 {
+  height: 80rem;
+}
+
+.width10 {
+  width: 10vw;
+}
+
+.width30 {
+  width: 30vw;
+}
+
+.width40 {
+  width: 40vw;
+}
+
+.width45 {
+  width: 45vw;
+}
+
+.width50 {
+  width: 50vw;
+}
+
+.width55 {
+  width: 55vw;
+}
+
+.width80 {
+  width: 80vw;
+}
+
+.width-half {
+  width: 50%;
+}
+
+.width-third {
+  width: 33.333%
+}
+
+.width-60percent {
+  width: 60%;
+}
+
+.width-40percent {
+  width: 40%;
+}
+
+.width-100percent {
+  width: 100%;
+}
+
+.top {
+  top: 0;
+}
+
+.bottom {
+  bottom: 0;
+}
+
+.hide {
+  display: none;
+}
+
+/* Text Formatting */
+
+.hugetext {
+  font-size: 8rem;
+}
+
+.titletext {
+  font-size: 5rem;
+}
+
+.h1text {
+  font-size: 3rem;
+}
+
+.h2text {
+  font-size: 2.5rem;
+}
+
+.h3text {
+  font-size: 2rem;
+}
+
+.h4text {
+  font-size: 1.5rem;
+}
+
+.centertext {
+  text-align: center;
+}
+
+.righttext {
+  text-align: right;
+}
+
+.bold {
+  font-family: "Bold";
+}
+
+.bold-italic {
+  font-family: "Bold Italic";
+}
+
+.italic {
+  font-family: "Italic";
+}
+
+.light {
+  font-family: "Light";
+}
+
+.light-italic {
+  font-family: "Light Italic";
+}
+
+.medium {
+  font-family: "Medium";
+}
+
+.medium-italic {
+  font-family: "Medium Italic";
+}
+
+.regular {
+  font-family: "Regular";
+}
+
+.jelly {
+  font-family: "Jelly";
+}
+
+/* Colors */
+
+.red {
+  background-color: #F23D6D;
+}
+
+.pink {
+  background-color: #FF65AC;
+}
+
+.green {
+  background-color: #AFE444;
+}
+
+.yellow {
+  background-color: #EAE03F;
+}
+
+.orange {
+  background-color: #FD7F2D;
+}
+
+.red-text {
+  color: #F23D6D;
+}
+
+.pink-text {
+  color: #FF65AC;
+}
+
+.green-text {
+  color: #AFE444;
+}
+
+.yellow-text {
+  color: #EAE03F;
+}
+
+.orange-text {
+  color: #FD7F2D;
+}
+
+.red-50 {
+  background-color: #F23D6D88;
+}
+
+.pink-50 {
+  background-color: #FF65AC88;
+}
+
+.green-50 {
+  background-color: #AFE44488;
+}
+
+.yellow-50 {
+  background-color: #EAE03F88;
+}
+
+.orange-50 {
+  background-color: #FD7F2D88;
+}
+
+.red-text-50 {
+  color: #F23D6D88;
+}
+
+.pink-text-50 {
+  color: #FF65AC88;
+}
+
+.green-text-50 {
+  color: #AFE44488;
+}
+
+.yellow-text-50 {
+  color: #EAE03F88;
+}
+
+.orange-text-50 {
+  color: #FD7F2D88;
+}
+
+/* Font Faces */
+
+@font-face {
+  font-family: "Bold";
+  src:
+    local("Ubuntu-Bold"),
+    url("fonts/Ubuntu-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Bold Italic";
+  src:
+    local("Ubuntu-BoldItalic"),
+    url("fonts/Ubuntu-BoldItalic.ttf");
+}
+
+@font-face {
+  font-family: "Italic";
+  src:
+    local("Ubuntu-Italic"),
+    url("fonts/Ubuntu-Italic.ttf");
+}
+
+@font-face {
+  font-family: "Light";
+  src:
+    local("Ubuntu-Light"),
+    url("fonts/Ubuntu-Light.ttf");
+}
+
+@font-face {
+  font-family: "Light Italic";
+  src:
+    local("Ubuntu-LightItalic"),
+    url("fonts/Ubuntu-LightItalic.ttf");
+}
+
+@font-face {
+  font-family: "Medium";
+  src:
+    local("Ubuntu-Medium"),
+    url("fonts/Ubuntu-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Medium Italic";
+  src:
+    local("Ubuntu-MediumItalic"),
+    url("fonts/Ubuntu-MediumItalic.ttf");
+}
+
+@font-face {
+  font-family: "Regular";
+  src:
+    local("Ubuntu-Regular"),
+    url("fonts/Ubuntu-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Jelly";
+  src:
+    local("Jellies"),
+    url("fonts/Jellies.ttf");
+}
