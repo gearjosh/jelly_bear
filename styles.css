@@ -56,39 +56,39 @@
 
 /* Margins, Padding, and Box Formatting */
 
-.margin-center {
+.margincenter {
   margin: 0 auto;
 }
 
-.margin-right {
+.marginright {
   margin-right: 1rem;
 }
 
-.margin-left {
+.marginleft {
   margin-left: 1rem;
 }
 
-.margin-top {
+.margintop {
   margin-top: 1rem;
 }
 
-.margin-top-lil {
+.margintop-lil {
   margin-top: .5rem;
 }
 
-.margin-top-big {
+.margintop-big {
   margin-top: 2rem;
 }
 
-.margin-bottom {
+.marginbottom {
   margin-bottom: 1rem;
 }
 
-.margin-bottom-lil {
+.marginbottom-lil {
   margin-bottom: .5rem;
 }
 
-.margin-bottom-big {
+.marginbottom-big {
   margin-bottom: 2rem;
 }
 
@@ -101,7 +101,7 @@
 }
 
 .rounded {
-  border-radius: .75rem;
+  border-radius: .5rem;
 }
 
 .height5 {
@@ -316,87 +316,87 @@
   background-color: #FD7F2D;
 }
 
-.black-text {
+.blacktext {
   color: #33262A;
 }
 
-.white-text {
+.whitetext {
   color: #F2E7DC;
 }
 
-.red-text {
+.redtext {
   color: #F23D6D;
 }
 
-.pink-text {
+.pinktext {
   color: #FF65AC;
 }
 
-.green-text {
+.greentext {
   color: #AFE444;
 }
 
-.yellow-text {
+.yellowtext {
   color: #EAE03F;
 }
 
-.orange-text {
+.orangetext {
   color: #FD7F2D;
 }
 
-.black-50 {
+.black50 {
   background-color: #33262A88;
 }
 
-.white-50 {
+.white50 {
   background-color: #F2E7DC88;
 }
 
-.red-50 {
+.red50 {
   background-color: #F23D6D88;
 }
 
-.pink-50 {
+.pink50 {
   background-color: #FF65AC88;
 }
 
-.green-50 {
+.green50 {
   background-color: #AFE44488;
 }
 
-.yellow-50 {
+.yellow50 {
   background-color: #EAE03F88;
 }
 
-.orange-50 {
+.orange50 {
   background-color: #FD7F2D88;
 }
 
-.black-text-50 {
+.blacktext50 {
   color: #33262A88;
 }
 
-.white-text-50 {
+.whitetext50 {
   color: #F2E7DC88;
 }
 
-.red-text-50 {
+.redtext50 {
   color: #F23D6D88;
 }
 
-.pink-text-50 {
+.pinktext50 {
   color: #FF65AC88;
 }
 
-.green-text-50 {
+.greentext50 {
   color: #AFE44488;
 }
 
-.yellow-text-50 {
+.yellowtext50 {
   color: #EAE03F88;
 }
 
-.orange-text-50 {
+.orangetext50 {
   color: #FD7F2D88;
 }
 
