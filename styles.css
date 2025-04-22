@@ -288,6 +288,14 @@
 
 /* Colors */
 
+.black {
+  background-color: #33262A;
+}
+
+.white {
+  background-color: #F2E7DC;
+}
+
 .red {
   background-color: #F23D6D;
 }
@@ -306,6 +314,14 @@
 
 .orange {
   background-color: #FD7F2D;
+}
+
+.black-text {
+  color: #33262A;
+}
+
+.white-text {
+  color: #F2E7DC;
 }
 
 .red-text {
@@ -328,6 +344,14 @@
   color: #FD7F2D;
 }
 
+.black-50 {
+  background-color: #33262A88;
+}
+
+.white-50 {
+  background-color: #F2E7DC88;
+}
+
 .red-50 {
   background-color: #F23D6D88;
 }
@@ -348,6 +372,14 @@
   background-color: #FD7F2D88;
 }
 
+.black-text-50 {
+  color: #33262A88;
+}
+
+.white-text-50 {
+  color: #F2E7DC88;
+}
+
 .red-text-50 {
   color: #F23D6D88;
 }
@@ -366,6 +398,14 @@
 
 .orange-text-50 {
   color: #FD7F2D88;
+}
+
+.gradient-landscape {
+  background-color: linear-gradient(to right, #F23D6E 0%, 8.762886375188828%, #FF65AD 17.525772750377655%, 29.553265124559402%, #AFE444 41.58075749874115%, 53.60824912786484%, #EAE040 65.63574075698853%, 82.81787037849426%, #FD7F2E 100%);
+}
+
+.gradient-vertical {
+  background-color: linear-gradient(to bottom, #F23D6E 0%, 8.762886375188828%, #FF65AD 17.525772750377655%, 29.553265124559402%, #AFE444 41.58075749874115%, 53.60824912786484%, #EAE040 65.63574075698853%, 82.81787037849426%, #FD7F2E 100%);
 }
 
 /* Font Faces */
