@@ -364,38 +364,6 @@ a:hover {
   text-align: right;
 }
 
-.bold {
-  font-family: "Bold";
-}
-
-.bold-italic {
-  font-family: "Bold Italic";
-}
-
-.italic {
-  font-family: "Italic";
-}
-
-.light {
-  font-family: "Light";
-}
-
-.light-italic {
-  font-family: "Light Italic";
-}
-
-.medium {
-  font-family: "Medium";
-}
-
-.medium-italic {
-  font-family: "Medium Italic";
-}
-
-.regular {
-  font-family: "Regular";
-}
-
 .jelly {
   font-family: "Jelly";
 }
