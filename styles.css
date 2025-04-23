@@ -3,7 +3,11 @@
 }
 
 html {
-  font-family: "Medium";
+  font-family: "Montserrat";
+}
+
+a {
+  text-decoration: none;
 }
 
 /* Flex */
@@ -104,32 +108,88 @@ html {
   padding: 2rem;
 }
 
+.padded-half {
+  padding: .5rem;
+}
+
 .rounded {
-  border-radius: .5rem;
+  border-radius: .25rem;
+}
+
+.rounded-top {
+  border-radius: .25rem .25rem 0 0;
+}
+
+.rounded-bottom {
+  border-radius: 0 0 .25rem .25rem;
 }
 
 .height5 {
   height: 5rem;
 }
 
+.height5-max {
+  max-height: 5rem;
+}
+
+.height5-min {
+  min-height: 5rem;
+}
+
 .height7 {
   height: 7rem;
+}
+
+.height7-max {
+  max-height: 7rem;
+}
+
+.height7-min {
+  min-height: 7rem;
 }
 
 .height10 {
   height: 10rem;
 }
 
+.height10-max {
+  max-height: 10rem;
+}
+
+.height10-min {
+  min-height: 10rem;
+}
+
 .height20 {
   height: 20rem;
+}
+
+.height20-max {
+  max-height: 20rem;
+}
+
+.height20-min {
+  min-height: 20rem;
 }
 
 .height25 {
   height: 25rem;
 }
 
+.height25-max {
+  max-height: 25rem;
+}
+
+.height25-min {
+  min-height: 25rem;
+}
+
 .height30 {
   height: 30rem;
+}
+
+.height30-max {
+  max-height: 30rem;
 }
 
 .height30-min {
@@ -140,12 +200,20 @@ html {
   height: 35rem;
 }
 
+.height35-max {
+  max-height: 35rem;
+}
+
 .height35-min {
   min-height: 35rem;
 }
 
 .height40 {
   height: 40rem;
+}
+
+.height40-max {
+  max-height: 40rem;
 }
 
 .height40-min {
@@ -156,8 +224,24 @@ html {
   height: 50rem;
 }
 
+.height50-max {
+  max-height: 50rem;
+}
+
+.height50-min {
+  min-height: 50rem;
+}
+
 .height80 {
   height: 80rem;
+}
+
+.height80-max {
+  max-height: 80rem;
+}
+
+.height80-min {
+  min-height: 80rem;
 }
 
 .width10 {
@@ -290,6 +374,18 @@ html {
   font-family: "Jelly";
 }
 
+.vanilla {
+  font-family: "Vanilla";
+}
+
+.mont {
+  font-family: "Montserrat";
+}
+
+.bold {
+  font-family: "Montserrat Bold";
+}
+
 /* Colors */
 
 .black {
@@ -298,6 +394,10 @@ html {
 
 .white {
   background-color: #F2E7DC;
+}
+
+.grey {
+  background-color: #473F41;
 }
 
 .red {
@@ -405,74 +505,39 @@ html {
 }
 
 .gradient-landscape {
-  background-color: linear-gradient(to right, #F23D6E 0%, 8.762886375188828%, #FF65AD 17.525772750377655%, 29.553265124559402%, #AFE444 41.58075749874115%, 53.60824912786484%, #EAE040 65.63574075698853%, 82.81787037849426%, #FD7F2E 100%);
+  background: linear-gradient(to right, #F23D6E 0%, 8.762886375188828%, #FF65AD 17.525772750377655%, 29.553265124559402%, #AFE444 41.58075749874115%, 53.60824912786484%, #EAE040 65.63574075698853%, 82.81787037849426%, #FD7F2E 100%);
 }
 
 .gradient-vertical {
-  background-color: linear-gradient(to bottom, #F23D6E 0%, 8.762886375188828%, #FF65AD 17.525772750377655%, 29.553265124559402%, #AFE444 41.58075749874115%, 53.60824912786484%, #EAE040 65.63574075698853%, 82.81787037849426%, #FD7F2E 100%);
+  background: linear-gradient(to top, #F23D6E 0%, 8.762886375188828%, #FF65AD 17.525772750377655%, 29.553265124559402%, #AFE444 41.58075749874115%, 53.60824912786484%, #EAE040 65.63574075698853%, 82.81787037849426%, #FD7F2E 100%);
 }
 
 /* Font Faces */
-
-@font-face {
-  font-family: "Bold";
-  src:
-    local("Ubuntu-Bold"),
-    url("fonts/Ubuntu-Bold.ttf");
-}
-
-@font-face {
-  font-family: "Bold Italic";
-  src:
-    local("Ubuntu-BoldItalic"),
-    url("fonts/Ubuntu-BoldItalic.ttf");
-}
-
-@font-face {
-  font-family: "Italic";
-  src:
-    local("Ubuntu-Italic"),
-    url("fonts/Ubuntu-Italic.ttf");
-}
-
-@font-face {
-  font-family: "Light";
-  src:
-    local("Ubuntu-Light"),
-    url("fonts/Ubuntu-Light.ttf");
-}
-
-@font-face {
-  font-family: "Light Italic";
-  src:
-    local("Ubuntu-LightItalic"),
-    url("fonts/Ubuntu-LightItalic.ttf");
-}
-
-@font-face {
-  font-family: "Medium";
-  src:
-    local("Ubuntu-Medium"),
-    url("fonts/Ubuntu-Medium.ttf");
-}
-
-@font-face {
-  font-family: "Medium Italic";
-  src:
-    local("Ubuntu-MediumItalic"),
-    url("fonts/Ubuntu-MediumItalic.ttf");
-}
-
-@font-face {
-  font-family: "Regular";
-  src:
-    local("Ubuntu-Regular"),
-    url("fonts/Ubuntu-Regular.ttf");
-}
 
 @font-face {
   font-family: "Jelly";
   src:
     local("Jellies"),
     url("fonts/Jellies.ttf");
+}
+
+@font-face {
+  font-family: "Vanilla";
+  src:
+    local("Vanilla"),
+    url("fonts/Vanilla.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src:
+    local("Montserrat-Regular"),
+    url("fonts/Montserrat-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat Bold";
+  src:
+    local("Montserrat-Bold"),
+    url("fonts/Montserrat-Bold.ttf");
 }
