@@ -19,6 +19,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color: #FD7F2D;
+}
+
 /* Flex */
 
 .flexrow {
@@ -584,13 +588,13 @@ a {
   }
 }
 
-@media (width < 600px) {
+@media (width < 610px) {
   html {
     font-size: 40%;
   }
 }
 
-/* @media (width < 450px) {
+@media (width < 450px) {
   html {
     font-size: 30%;
   }
@@ -600,4 +604,4 @@ a {
   html {
     font-size: 25%;
   }
-} */
+}
