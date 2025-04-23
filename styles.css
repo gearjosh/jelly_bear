@@ -1,9 +1,18 @@
 * {
   box-sizing: border-box;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
 }
 
 html {
   font-family: "Montserrat";
+}
+
+body {
+
 }
 
 a {
@@ -308,6 +317,11 @@ a {
   bottom: 0;
 }
 
+.imgfit {
+  max-width: 100%;
+  object-fit: contain;
+}
+
 .hide {
   display: none;
 }
@@ -404,8 +418,8 @@ a {
   background-color: #F2E7DC;
 }
 
-.grey {
-  background-color: #473F41;
+.bright-white {
+  background-color: #FEFEFE;
 }
 
 .red {
@@ -549,3 +563,41 @@ a {
     local("Montserrat-Bold"),
     url("fonts/Montserrat-Bold.ttf");
 }
+
+/* Media Queries */
+
+@media (width < 1120px) {
+  html {
+    font-size: 85%;
+  }
+}
+
+@media (width < 910px) {
+  html {
+    font-size: 70%;
+  }
+}
+
+@media (width < 750px) {
+  html {
+    font-size: 55%;
+  }
+}
+
+@media (width < 600px) {
+  html {
+    font-size: 40%;
+  }
+}
+
+/* @media (width < 450px) {
+  html {
+    font-size: 30%;
+  }
+}
+
+@media (width < 360px) {
+  html {
+    font-size: 25%;
+  }
+} */
