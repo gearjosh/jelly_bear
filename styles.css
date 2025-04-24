@@ -85,6 +85,10 @@ a:hover {
   margin-right: 1rem;
 }
 
+.marginright-big {
+  margin-right: 2rem;
+}
+
 .marginleft {
   margin-left: 1rem;
 }
@@ -143,6 +147,10 @@ a:hover {
 
 .rounded-right {
   border-radius: 0 .25rem .25rem 0;
+}
+
+.height3 {
+  height: 3rem;
 }
 
 .height5 {
@@ -269,6 +277,10 @@ a:hover {
   width: 10vw;
 }
 
+.width15 {
+  width: 15vw;
+}
+
 .width30 {
   width: 30vw;
 }
@@ -291,6 +303,10 @@ a:hover {
 
 .width80 {
   width: 80vw;
+}
+
+.width85 {
+  width: 85vw;
 }
 
 .width-half {
@@ -507,31 +523,31 @@ a:hover {
 }
 
 .blackshadow {
-  text-shadow: 0 .25rem #33262A;
+  text-shadow: 0 .125rem #33262A;
 }
 
 .whiteshadow {
-  text-shadow: 0 .25rem #F2E7DC;
+  text-shadow: 0 .125rem #F2E7DC;
 }
 
 .redshadow {
-  text-shadow: 0 .25rem #F23D6D;
+  text-shadow: 0 .125rem #F23D6D;
 }
 
 .pinkshadow {
-  text-shadow: 0 .25rem #FF65AC;
+  text-shadow: 0 .125rem #FF65AC;
 }
 
 .greenshadow {
-  text-shadow: 0 .25rem #AFE444;
+  text-shadow: 0 .125rem #AFE444;
 }
 
 .yellowshadow {
-  text-shadow: 0 .25rem #EAE03F;
+  text-shadow: 0 .125rem #EAE03F;
 }
 
 .orangeshadow {
-  text-shadow: 0 .25rem #FD7F2D;
+  text-shadow: 0 .125rem #FD7F2D;
 }
 
 .gradient-landscape {
