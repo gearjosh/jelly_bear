@@ -1,10 +1,10 @@
 * {
   box-sizing: border-box;
-  overflow-wrap: break-word;
+  /* overflow-wrap: break-word;
   word-wrap: break-word;
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
-  hyphens: auto;
+  hyphens: auto; */
 }
 
 html {
@@ -12,7 +12,7 @@ html {
 }
 
 body {
-
+  position: relative;
 }
 
 a {
@@ -326,6 +326,14 @@ a:hover {
   object-fit: contain;
 }
 
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  /* height: 2.5rem; */
+  top: -13rem;
+  z-index: 10;
+}
+
 .hide {
   display: none;
 }
@@ -496,6 +504,34 @@ a:hover {
 
 .orangetext50 {
   color: #FD7F2D88;
+}
+
+.blackshadow {
+  text-shadow: 0 .25rem #33262A;
+}
+
+.whiteshadow {
+  text-shadow: 0 .25rem #F2E7DC;
+}
+
+.redshadow {
+  text-shadow: 0 .25rem #F23D6D;
+}
+
+.pinkshadow {
+  text-shadow: 0 .25rem #FF65AC;
+}
+
+.greenshadow {
+  text-shadow: 0 .25rem #AFE444;
+}
+
+.yellowshadow {
+  text-shadow: 0 .25rem #EAE03F;
+}
+
+.orangeshadow {
+  text-shadow: 0 .25rem #FD7F2D;
 }
 
 .gradient-landscape {
