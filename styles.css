@@ -305,6 +305,10 @@ a:hover {
   width: 80vw;
 }
 
+.width80-min {
+  min-width: 80vw;
+}
+
 .width85 {
   width: 85vw;
 }
@@ -558,6 +562,18 @@ a:hover {
   background: linear-gradient(to top, #F23D6E 0%, 8.762886375188828%, #FF65AD 17.525772750377655%, 29.553265124559402%, #AFE444 41.58075749874115%, 53.60824912786484%, #EAE040 65.63574075698853%, 82.81787037849426%, #FD7F2E 100%);
 }
 
+/* One-Offs */
+
+#bigLogo, #bigLogoLink {
+  min-width: 65rem;
+  max-width: 70rem;
+}
+
+
+#smallLogoImg {
+  max-width: 16.25rem;
+}
+
 /* Font Faces */
 
 @font-face {
@@ -623,5 +639,12 @@ a:hover {
 @media (width < 360px) {
   html {
     font-size: 25%;
+  }
+}
+
+@media (width < 260px) {
+  #bigLogo, #bigLogoLink {
+    min-width: 80vw;
+    max-width: 80vw;
   }
 }
