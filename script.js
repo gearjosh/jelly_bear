@@ -1,3 +1,5 @@
+// Utility Functions
+
 function switchHeader() {
   if ($(window).scrollTop() >= 208) {
     $("#smallLogo").show();
@@ -5,6 +7,8 @@ function switchHeader() {
     $("#smallLogo").hide();
   }
 }
+
+// Event Listeners
 
 $(window).scroll(switchHeader);
 
